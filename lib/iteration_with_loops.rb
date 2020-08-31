@@ -13,5 +13,5 @@ def join_nested_strings(src)
   row_index += 1
   combine_string << element_string
   end  
-combine_string
+combine_string.join" "
 end
